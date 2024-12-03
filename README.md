@@ -3,13 +3,13 @@ A simple and interactive web-based Drum Kit application that lets users play dif
 
  ## Table of Contents:
 - Introduction
--Features
+- Features
 - Technologies Used
 - Setup and Installation
--Usage
--Project Structure
--How It Works
--Future Improvements
+- Usage
+- Project Structure
+- How It Works
+- Future Improvements
  
 ## Introduction:
 This Drum Kit project allows users to emulate playing a real drum kit on a virtual interface. Users can interact with the application either by:
