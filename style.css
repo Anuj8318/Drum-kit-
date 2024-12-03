@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#8174A0, #A888B5, #EFB6C8, #FFD2A0);
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    height: 100vh; /* Full viewport height */
+    justify-content: space-between; /* Distribute space between elements */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+}
+
+#title {
+    font-size: 6rem;
+    margin-top: 20px; /* Add some space at the top */
+}
+
+footer {
+    color: #201212;
+    font-family: sans-serif;
+    margin-bottom: 10px; /* Add some space at the bottom */
+}
+
+.main {
+    display: flex; /* Enable flexbox for drum buttons */
+    flex-wrap: wrap; /* Allow wrapping of buttons if necessary */
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center; /* Center buttons vertically */
+    gap: 20px; /* Add space between buttons */
+}
+
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: white;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+
+.W{
+    background-image: url(./images/crash.png);
+}
+
+.A {
+    background-image: url(./images/kick.png);
+}
+
+.S {
+    background-image: url(./images/snare.png);
+}
+
+.D {
+    background-image: url(./images/tom1.png);
+}
+
+.J {
+    background-image: url(./images/tom2.png);
+}
+
+.K {
+    background-image: url(./images/tom3.png);
+}
+
+.L {
+    background-image: url(./images/tom4.png);
+}
